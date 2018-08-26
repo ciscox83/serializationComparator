@@ -1,0 +1,12 @@
+namespace com.company.flatbuf;
+
+table Employees {
+  employees:[Employee];
+}
+
+table Employee {
+    name:string;
+    age:short;
+}
+
+root_type Employees;
